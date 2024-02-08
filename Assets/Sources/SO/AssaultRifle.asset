@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7225058bf554d539f4cf4e80b78cc1e, type: 3}
+  m_Name: AssaultRifle
+  m_EditorClassIdentifier: 
+  WeaponIcon: {fileID: 21300000, guid: ce7199989f15fa64faa5923a6aaf086b, type: 3}
+  Damage: 15
+  FireRate: 10
+  Range: 100
+  MaxAmmo: 30
+  ReloadTime: 2
+  MuzzleFlashEffect: {fileID: 198792769130808804, guid: 4543ab5e3d405ec40a8d4e9aa5165030, type: 3}
+  HitEffect: {fileID: 19800002, guid: 957385c45b877e645a128e11a3efb2f9, type: 3}
+  ShootClip: {fileID: 8300000, guid: ad4e4e70867355f4f8039d02f4b2c95e, type: 3}
+  ReloadClip: {fileID: 8300000, guid: 4c6e872d9e1bba848978cce33ab91370, type: 3}
+  Recoil:
+    MaxHorizontalForce: 0.05
+    MaxVerticalForce: 0.2
